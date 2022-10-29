@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(95, 166, 169);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.box{
+     background-color: rgb(216, 126, 154);
+     padding: 30px;
+     margin: 30px;
+}
+#head{
+    font-family: sans-serif;
+    color: aqua;
+    margin-left: 60px;
+}
+#pass{
+    width: 405px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 62px;
+}
+#button{
+   display: flex;
+   justify-content: center;
+   align-items:center ;
+   border: 2px solid black;
+   padding: 10px;
+   background-color:rgb(95, 218, 227);
+   border-radius: 6px;
+}
+.btn1{
+    margin-left: 60px;
+    width: 150px;
+}
+.btn2{
+    margin-left: 100px;
+    width: 150px;
+}
+#button:hover{
+    color: white;
+}
